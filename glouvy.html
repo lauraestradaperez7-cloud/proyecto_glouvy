@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <div class="logo">
+
+            <img src="imagenes/logo.jpeg" alt="Logo de GLOUVY" class="logo-img">
+        </div>
+
+        <nav class="menu">
+            <a href="#quienes-somos">Quiénes somos</a>
+            <a href="#ingredientes">Ingredientes</a>
+            <a href="#productos">Productos</a>
+            <a href="#paso-a-paso">Paso a paso</a>
+            <a href="#contacto">Contáctanos</a>
+        </nav>
+
+    </header>
+
+
+
+    <section class="banner">
+
+        <div class="texto-banner">
+
+            <p class="subtitulo-banner">TU MOMENTO DE CUIDADO</p>
+
+            <h2>Reparación diaria,<br>
+                confianza real.</h2>
+
+            <p>
+                Descubre una rutina facial que acompaña
+                tu piel con frescura, hidratación y bienestar.
+            </p>
+
+            <a href="#productos" class="boton">
+                Conoce nuestros productos
+            </a>
+        </div>
+        <div class="carrusel-contenedor">       
+        <input type="radio" name="slider" id="productos" checked>
+        <input type="radio" name="slider" id="jabon">
+        <input type="radio" name="slider" id="serum">
+        <input type="radio" name="slider" id="tonico">
+        <input type="radio" name="slider" id="crema">
+        <div class="carrusel">
+            <div class="imagenes">
+                <img src="imagenes/productos.jpeg" alt="">
+                <img src="imagenes/jabon.jpeg" alt="">
+                <img src="imagenes/serum.jpeg" alt="">
+                <img src="imagenes/tonico.jpeg" alt="">
+                <img src="imagenes/crema.jpeg" alt="">
+
+            </div>
+        </div>
+        
+<div class="controles">
+    <!-- Imagen 1 -->
+    <label for="crema" class="flecha izquierda prev1">&#10094;</label>
+    <label for="jabon" class="flecha derecha next1">&#10095;</label>
+
+    <!-- Imagen 2 -->
+    <label for="productos" class="flecha izquierda prev2">&#10094;</label>
+    <label for="serum" class="flecha derecha next2">&#10095;</label>
+
+    <!-- Imagen 3 -->
+    <label for="jabon" class="flecha izquierda prev3">&#10094;</label>
+    <label for="tonico" class="flecha derecha next3">&#10095;</label>
+
+    <!-- Imagen 4 -->
+    <label for="serum" class="flecha izquierda prev4">&#10094;</label>
+    <label for="crema" class="flecha derecha next4">&#10095;</label>
+
+    <!-- Imagen 5 -->
+    <label for="tonico" class="flecha izquierda prev5">&#10094;</label>
+    <label for="productos" class="flecha derecha next5">&#10095;</label>
+</div>
+
+        <div class="puntos">
+            <label for="productos"></label>
+            <label for="jabon"></label>
+            <label for="serum"></label>
+            <label for="tonico"></label>
+            <label for="crema"></label>
+        </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <section class="quienes-somos" id="quienes-somos">
+
+         <div class="imagen-nosotros">
+
+            <img src="imagenes/chica.jpeg" alt="Mujer disfrutando de su rutina de cuidado facial">
+
+        </div>
+
+       
+
+        <div class="contenido-nosotros">
+
+            <h2>Quiénes somos</h2>
+
+            <p>
+                En GLOUVY somos una marca de cuidado de la piel
+                creada para acompañar a los jóvenes en el proceso
+                de conocer, cuidar y aceptar su piel.
+            </p>
+
+            <p>
+                Nos inspiramos en ingredientes como la sábila,
+                el agua de arroz y el té verde para brindar una
+                experiencia de frescura, hidratación y bienestar.
+            </p>
+
+            <p>
+                Creemos que cuidar la piel no se trata de buscar
+                una apariencia perfecta, sino de reconocer sus
+                necesidades y dedicarle tiempo y cariño.
+            </p>
+            
+
+
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN DE INGREDIENTES -->
+
+    <section class="ingredientes" id="ingredientes">
+
+        <h2>Nuestros ingredientes</h2>
+
+        <p class="descripcion-ingredientes">
+            Inspiración natural para tu rutina de cuidado.
+        </p>
+
+        <div class="contenedor-tarjetas">
+
+
+
+            <article class="tarjeta-ingrediente">
+
+                <img src="imagenes/savila.jpeg" alt="Planta de sábila">
+
+                <h3>Sábila</h3>
+
+                <p>
+                    Un ingrediente conocido por sus propiedades
+                    hidratantes y su sensación refrescante.
+                </p>
+
+            </article>
+
+
+
+            <article class="tarjeta-ingrediente">
+
+                <img src="imagenes/agua de arroz.jpeg" alt="Agua de arroz">
+
+                <h3>Agua de arroz</h3>
+
+                <p>
+                    Un ingrediente tradicional que inspira
+                    las rutinas de cuidado facial.
+                </p>
+
+            </article>
+
+
+
+            <article class="tarjeta-ingrediente">
+
+                <img src="imagenes/camellia.jpeg" alt="Hojas de té verde">
+
+                <h3>Té verde</h3>
+
+                <p>
+                    Contiene antioxidantes y complementa
+                    las fórmulas de cuidado facial.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="productos" id="productos">
+
+        <h2>Nuestros productos</h2>
+
+        <p class="descripcion-productos">
+            Encuentra tus aliados para una rutina facial.
+        </p>
+
+        <div class="contenedor-productos">
+
+            <!-- PRODUCTO 1 -->
+
+            <article class="tarjeta-producto">
+
+                <img src="imagenes/jabon.jpeg" alt="Jabón facial GLOUVY">
+
+                <h3>Jabón facial</h3>
+
+                <p>
+                    Limpia tu rostro suavemente como primer paso
+                    de tu rutina facial.
+                </p>
+
+            </article>
+
+            <!-- PRODUCTO 2 -->
+
+            <article class="tarjeta-producto">
+
+                <img src="imagenes/tonico.jpeg" alt="Tónico facial GLOUVY">
+
+                <h3>Tónico</h3>
+
+                <p>
+                    Complementa tu rutina de cuidado según
+                    las necesidades de tu piel.
+                </p>
+
+            </article>
+
+            <!-- PRODUCTO 3 -->
+
+            <article class="tarjeta-producto">
+
+                <img src="imagenes/serum.jpeg" alt="Sérum facial GLOUVY">
+
+                <h3>Sérum</h3>
+
+                <p>
+                    Un paso complementario para el cuidado
+                    de tu piel.
+                </p>
+
+            </article>
+
+            <!-- PRODUCTO 4 -->
+
+            <article class="tarjeta-producto">
+
+                <img src="imagenes/crema.jpeg" alt="Crema hidratante GLOUVY">
+
+                <h3>Crema hidratante</h3>
+
+                <p>
+                    Ayuda a mantener la hidratación
+                    de la piel.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="paso-a-paso" id="paso-a-paso">
+
+        <h2>Tu rutina facial GLOUVY</h2>
+
+        <p class="descripcion-rutina">
+            Cuida tu piel con pequeños momentos para ti.
+        </p>
+
+        <div class="contenedor-pasos">
+
+            <article class="tarjeta-paso">
+                <div class="numero-paso">01</div>
+                <h3>Limpia</h3>
+                <p>
+                    Comienza lavando tu rostro suavemente
+                    con el jabón facial GLOUVY.
+                </p>
+            </article>
+
+            <article class="tarjeta-paso">
+                <div class="numero-paso">02</div>
+                <h3>Prepara</h3>
+                <p>
+                    Aplica el tónico siguiendo las
+                    indicaciones de uso del producto.
+                </p>
+            </article>
+
+            <article class="tarjeta-paso">
+                <div class="numero-paso">03</div>
+                <h3>Cuida</h3>
+                <p>
+                    Incorpora el sérum a tu rutina
+                    según las indicaciones de uso.
+                </p>
+            </article>
+
+            <article class="tarjeta-paso">
+                <div class="numero-paso">04</div>
+                <h3>Hidrata</h3>
+                <p>
+                    Termina con la crema hidratante
+                    adecuada para tu piel.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="contacto" id="contacto">
+
+        <h2>Hablemos de tu cuidado</h2>
+
+        <p class="texto-contacto">
+            En GLOUVY creemos que cada piel merece cuidado,
+            paciencia y bienestar.
+        </p>
+
+        <p class="invitacion-contacto">
+            ¿Quieres conocer más sobre nuestros productos?
+            ¡Nos encantará acompañarte!
+        </p>
+
+        <a href="mailto:contacto@glouvy.com" class="boton-contacto">
+            Escríbenos
+        </a>
+
+    </section>
+
+    <footer class="pie-pagina">
+
+        <h2>GLOUVY</h2>
+
+        <p>Preparación diaria, confianza real.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
